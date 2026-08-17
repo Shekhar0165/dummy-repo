@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 // GET Route
 app.get("/users", (req, res) => {
   res.json([
-    { id: 1, name: "express" },
+    { id: 1, name: "shekhar" },
     { id: 2, name: "Bob" }
   ]);
 });
